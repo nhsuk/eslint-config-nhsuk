@@ -1,5 +1,7 @@
 # NHSUK's ESLint config
 
+[![Build Status](https://travis-ci.org/nhsuk/eslint-config-nhsuk.svg?branch=master)](https://travis-ci.org/nhsuk/eslint-config-nhsuk)
+
 This repo provides NHSUK's `.eslintrc` as a [shareable config](http://eslint.org/docs/developer-guide/shareable-configs).
 
 ## Config info
