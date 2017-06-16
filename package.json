@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-nhsuk",
+  "version": "0.1.0",
+  "description": "ESLint config. Primarily intended for use within NHSUK projects.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "lint"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "NHSUK"
+  ],
+  "author": "steven hunt",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=3.0.0",
+    "eslint-config-airbnb": ">=15.0.0",
+    "eslint-plugin-import": ">=2.2.0",
+    "eslint-plugin-json": ">=1.2.0",
+    "eslint-plugin-jsx-a11y": ">=5.0.0",
+    "eslint-plugin-mocha": ">=4.8.0",
+    "eslint-plugin-react": ">=7.1.0"
+  },
+  "dependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-mocha": "^4.8.0",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}
