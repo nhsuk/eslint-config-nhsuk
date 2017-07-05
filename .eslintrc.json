@@ -3,10 +3,8 @@
     "node": true,
     "mocha": true
   },
-  "extends": "airbnb",
+  "extends": "airbnb-base",
   "plugins": [
-    "react",
-    "jsx-a11y",
     "import",
     "mocha",
     "json"
@@ -39,7 +37,6 @@
         "exports": "never",
         "functions": "never"
       }
-    ],
-    "react/require-extension": "off"
+    ]
   }
 }
