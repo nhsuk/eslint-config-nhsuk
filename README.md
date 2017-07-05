@@ -2,7 +2,7 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/nhsuk/eslint-config-nhsuk.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/nhsuk/eslint-config-nhsuk.svg?branch=master)](https://travis-ci.org/nhsuk/eslint-config-nhsuk)
-[![Known Vulnerabilities](https://snyk.io/test/github/nhsuk/eslint-config-nhsuk/badge.svg)](ttps://snyk.io/test/github/nhsuk/eslint-config-nhsuk)
+[![Known Vulnerabilities](https://snyk.io/test/github/nhsuk/eslint-config-nhsuk/badge.svg)](https://snyk.io/test/github/nhsuk/eslint-config-nhsuk)
 
 > This repo provides NHSUK's `.eslintrc` as a [shareable config](http://eslint.org/docs/developer-guide/shareable-configs).
 
