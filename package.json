@@ -4,8 +4,7 @@
   "description": "ESLint config. Primarily intended for use within NHSUK projects.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "test": "lint"
+    "test": "mocha --recursive test"
   },
   "keywords": [
     "eslint",
@@ -28,5 +27,8 @@
     "eslint-plugin-json": "^1.2.0",
     "eslint-plugin-mocha": "^4.11.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
 }
