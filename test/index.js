@@ -10,7 +10,16 @@ describe('the ruleset exported from index.js', () => {
 
     const report = cli.executeOnFiles(['.']);
 
-    expect(report.errorCount).to.be.equal(0);
-    expect(report.warningCount).to.be.equal(0);
+    const errors = report.errorCount;
+    const warnings = report.warningCount;
+
+    if (errors + warnings > 0) {
+      const formatter = cli.getFormatter();
+      // eslint-disable-next-line no-console
+      console.log(formatter(report.results));
+    }
+
+    expect(errors).to.be.equal(0);
+    expect(warnings).to.be.equal(0);
   });
 });
