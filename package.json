@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-nhsuk",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "ESLint config. Primarily intended for use within NHSUK projects.",
   "main": "index.js",
   "scripts": {
     "precommit": "yarn test",
-    "prepush": "yarn test",
+    "prepush": "yarn test && yarn snyk test",
     "test": "mocha --recursive test"
   },
   "keywords": [
