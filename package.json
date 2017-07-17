@@ -17,9 +17,9 @@
   "license": "MIT",
   "peerDependencies": {
     "eslint": ">=4.0.0",
-    "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-json": ">=1.2.0",
-    "eslint-plugin-mocha": ">=4.8.0"
+    "eslint-config-airbnb-base": ">=11.0.0",
+    "eslint-plugin-json": ">=1.0.0",
+    "eslint-plugin-mocha": ">=4.0.0"
   },
   "dependencies": {
     "eslint": "^4.2.0",
