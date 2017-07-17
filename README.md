@@ -1,5 +1,6 @@
 # NHSUK's ESLint config
 
+[![npm version](https://badge.fury.io/js/eslint-config-nhsuk.svg)](https://badge.fury.io/js/eslint-config-nhsuk)
 [![Greenkeeper badge](https://badges.greenkeeper.io/nhsuk/eslint-config-nhsuk.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/nhsuk/eslint-config-nhsuk.svg?branch=master)](https://travis-ci.org/nhsuk/eslint-config-nhsuk)
 [![Known Vulnerabilities](https://snyk.io/test/github/nhsuk/eslint-config-nhsuk/badge.svg)](https://snyk.io/test/github/nhsuk/eslint-config-nhsuk)
