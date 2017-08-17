@@ -4,8 +4,6 @@ version: v1.7.1
 ignore:
   'npm:shelljs:20140723':
     - eslint-plugin-json > jshint > shelljs:
-        reason: >-
-          This module will be installed as a devDependency in consuming apps and
-          has no public facing interface.
-        expires: '2017-08-05T07:28:39.691Z'
+        reason: No upgrade path available
+        expires: '2017-09-15T12:40:56.099Z'
 patch: {}
