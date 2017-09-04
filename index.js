@@ -37,6 +37,7 @@ module.exports = {
         exports: 'never',
         functions: 'never'
       }
-    ]
+    ],
+    'prefer-destructuring': 'off'
   }
 };
