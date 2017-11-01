@@ -1,3 +1,7 @@
+0.7.0 / 2017-11-01
+==================
+- Update all npm dependencies
+
 0.6.0 / 2017-09-27
 ==================
 - Update all npm dependencies
