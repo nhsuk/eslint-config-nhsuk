@@ -4,16 +4,6 @@ version: v1.7.1
 ignore:
   'npm:shelljs:20140723':
     - eslint-plugin-json > jshint > shelljs:
-        reason: Shell is not user facing.
-        expires: '2017-10-27T09:34:11.883Z'
-  'npm:debug:20170905':
-    - eslint-plugin-import > debug:
-        reason: Debug is not user facing.
-        expires: '2017-10-27T09:34:11.883Z'
-    - eslint-plugin-import > eslint-import-resolver-node > debug:
-        reason: Debug is not user facing.
-        expires: '2017-10-27T09:34:11.883Z'
-    - eslint-plugin-import > eslint-module-utils > debug:
-        reason: Debug is not user facing.
-        expires: '2017-10-27T09:34:11.883Z'
+        reason: No upgrade path available.
+        expires: '2017-12-01T09:16:39.389Z'
 patch: {}
