@@ -1,9 +1,9 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.10.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:shelljs:20140723':
     - eslint-plugin-json > jshint > shelljs:
-        reason: No upgrade path available.
-        expires: '2017-12-01T09:16:39.389Z'
+        reason: No upgrade path
+        expires: '2018-01-26T10:44:06.904Z'
 patch: {}

@@ -1,3 +1,8 @@
+0.8.0 / 2018-01-02
+==================
+- Update all npm dependencies
+- Update snyk policy for known vulnerabilities
+
 0.7.0 / 2017-11-01
 ==================
 - Update all npm dependencies
