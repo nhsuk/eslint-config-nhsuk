@@ -1,32 +1,32 @@
 module.exports = {
   env: {
     node: true,
-    mocha: true
+    mocha: true,
   },
   extends: 'airbnb-base',
   plugins: [
     'import',
     'mocha',
-    'json'
+    'json',
   ],
   rules: {
     'no-multiple-empty-lines': [
       'error',
       {
-        max: 1
-      }
+        max: 1,
+      },
     ],
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: true
-      }
+        devDependencies: true,
+      },
     ],
     'no-plusplus': [
       'error',
       {
-        allowForLoopAfterthoughts: true
-      }
+        allowForLoopAfterthoughts: true,
+      },
     ],
     'comma-dangle': [
       'error',
@@ -35,9 +35,9 @@ module.exports = {
         objects: 'only-multiline',
         imports: 'never',
         exports: 'never',
-        functions: 'never'
-      }
+        functions: 'never',
+      },
     ],
-    'prefer-destructuring': 'off'
-  }
+    'prefer-destructuring': 'off',
+  },
 };
