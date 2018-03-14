@@ -1,3 +1,7 @@
+0.10.0 / 2018-03-14
+===================
+- Update rules for trailing commas
+
 0.9.0 / 2018-03-13
 ==================
 - Update all npm dependencies
