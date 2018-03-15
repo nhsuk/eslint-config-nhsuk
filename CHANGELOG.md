@@ -1,3 +1,7 @@
+0.11.0 / 2018-03-15
+===================
+- Add rule for [sort-keys](https://eslint.org/docs/rules/sort-keys)
+
 0.10.0 / 2018-03-14
 ===================
 - Update rules for trailing commas

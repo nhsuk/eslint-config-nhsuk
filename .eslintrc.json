@@ -38,6 +38,11 @@
         "functions": "never"
       }
     ],
-    "prefer-destructuring": "off"
+    "prefer-destructuring": "off",
+    "sort-keys": [
+      "error",
+      "asc",
+      { "caseSensitive": true, "natural": false }
+    ]
   }
 }
