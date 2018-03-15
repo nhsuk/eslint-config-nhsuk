@@ -13,11 +13,11 @@ module.exports = {
     'comma-dangle': [
       'error',
       {
-        arrays: 'only-multiline',
-        exports: 'never',
+        arrays: 'always-multiline',
+        exports: 'always-multiline',
         functions: 'never',
-        imports: 'never',
-        objects: 'only-multiline',
+        imports: 'always-multiline',
+        objects: 'always-multiline',
       },
     ],
     'import/no-extraneous-dependencies': [
@@ -42,7 +42,10 @@ module.exports = {
     'sort-keys': [
       'error',
       'asc',
-      { caseSensitive: true, natural: true },
+      {
+        caseSensitive: true,
+        natural: true
+      },
     ],
   },
 };
