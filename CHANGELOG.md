@@ -1,3 +1,7 @@
+0.12.0 / 2018-03-15
+===================
+- Use just one file (`.eslintrc.js`) for config and exporting config
+
 0.11.0 / 2018-03-15
 ===================
 - Add rule for [sort-keys](https://eslint.org/docs/rules/sort-keys)

@@ -1,6 +1,6 @@
 const CLIEngine = require('eslint').CLIEngine;
 const chai = require('chai');
-const rules = require('../index');
+const rules = require('../.eslintrc');
 
 const expect = chai.expect;
 
