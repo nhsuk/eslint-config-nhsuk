@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-nhsuk",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "ESLint config. Primarily intended for use within NHSUK projects.",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "scripts": {
     "lint": "yarn eslint .",
     "precommit": "yarn lint && yarn test",
