@@ -1,3 +1,7 @@
+0.14.0 / 2018-03-15
+===================
+- Add lines-between-class-members rule
+
 0.13.0 / 2018-03-15
 ===================
 - Fix comma-dangle rule

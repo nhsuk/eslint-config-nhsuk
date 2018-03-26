@@ -26,6 +26,10 @@ module.exports = {
         devDependencies: true,
       },
     ],
+    "lines-between-class-members": [
+      "error",
+      "always"
+    ],
     'no-multiple-empty-lines': [
       'error',
       {
