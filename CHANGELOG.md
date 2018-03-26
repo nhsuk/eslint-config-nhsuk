@@ -1,6 +1,6 @@
-0.14.0 / 2018-03-15
+0.14.0 / 2018-03-26
 ===================
-- Add lines-between-class-members rule
+- Add lines-between-class-members rule, upgrade mocha, lint .eslintrc.js
 
 0.13.0 / 2018-03-15
 ===================
