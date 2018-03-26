@@ -6,6 +6,7 @@ const expect = chai.expect;
 
 describe('the ruleset exported from index.js', () => {
   it('should not flag any errors or warnings when linting the code base', () => {
+    rules.ignorePattern = '!.eslintrc.js';
     const cli = new CLIEngine(rules);
 
     const report = cli.executeOnFiles(['.']);
