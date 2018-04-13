@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-nhsuk",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "description": "ESLint config. Primarily intended for use within NHSUK projects.",
   "main": ".eslintrc.js",
   "scripts": {
     "lint": "yarn eslint .",
     "precommit": "yarn lint && yarn test",
-    "prepush": "yarn precommit && yarn snyk test",
+    "prepush": "yarn precommit",
     "test": "mocha --recursive test"
   },
   "keywords": [
@@ -32,7 +32,6 @@
   "devDependencies": {
     "chai": "^4.0.0",
     "husky": "^0.14.0",
-    "mocha": "^5.0.0",
-    "snyk": "^1.0.0"
+    "mocha": "^5.0.0"
   }
 }
