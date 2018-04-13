@@ -1,3 +1,8 @@
+0.15.0 / 2018-04-13
+===================
+- Update npm dependencies
+- Remove snyk
+
 0.14.0 / 2018-03-26
 ===================
 - Add lines-between-class-members rule, upgrade mocha, lint .eslintrc.js
