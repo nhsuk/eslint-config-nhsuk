@@ -1,0 +1,26 @@
+# Node.js
+# Build a general Node.js application with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/vsts/pipelines/languages/javascript
+
+pool:
+  vmImage: 'Ubuntu 16.04'
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '8.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    npm install
+    npm test
+  displayName: 'npm test'
+
+- task: Npm@1
+  displayName: 'npm publish'
+  inputs:
+    command: publish
+    publishRegistry: useExternalRegistry
+    publishEndpoint: npm
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))

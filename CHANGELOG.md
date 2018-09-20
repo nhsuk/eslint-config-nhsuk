@@ -1,3 +1,8 @@
+0.17.0 / TBD
+===================
+- Replace `yarn` with `npm`
+- Use Azure DevOps for publishing
+
 0.16.0 / 2018-08-17
 ===================
 - Update npm dependencies
