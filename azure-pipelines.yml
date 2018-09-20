@@ -15,5 +15,11 @@ steps:
 - script: |
     npm install
     npm test
-    npm publish
-  displayName: 'npm test and publish'
+  displayName: 'npm test'
+
+- task: Npm@1
+  displayName: 'npm publish'
+  inputs:
+    command: publish
+    publishEndpoint: 'npmjs.com'
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
