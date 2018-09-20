@@ -21,6 +21,6 @@ steps:
   displayName: 'npm publish'
   inputs:
     command: publish
-    publishRegistry: 'useExternalRegistry'
+    # publishRegistry: 'useExternalRegistry'
     publishEndpoint: 'npm'
     condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
