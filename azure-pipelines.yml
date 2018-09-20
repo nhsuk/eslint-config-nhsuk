@@ -22,5 +22,5 @@ steps:
   inputs:
     command: publish
     publishRegistry: 'useExternalRegistry'
-    publishEndpoint: 'https://registery.npmjs.org'
+    publishEndpoint: 'npmjs.com'
     condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
