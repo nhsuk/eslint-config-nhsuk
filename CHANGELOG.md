@@ -1,4 +1,4 @@
-0.17.0 / 2018-10-03
+0.17.0 / 2019-05-31
 ===================
 - Update npm dependencies
 - Remove greenkeeper install in travis as it is natively supported
