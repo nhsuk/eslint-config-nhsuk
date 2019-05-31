@@ -1,3 +1,9 @@
+0.17.0 / 2018-10-03
+===================
+- Update npm dependencies
+- Remove greenkeeper install in travis as it is natively supported
+- Add snyk badge
+
 0.16.0 / 2018-08-17
 ===================
 - Update npm dependencies
