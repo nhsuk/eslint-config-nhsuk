@@ -17,10 +17,10 @@
   "author": "steven hunt",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "4.0.0 - 6.0.0",
-    "eslint-config-airbnb-base": "12.0.0 - 13.0.0",
-    "eslint-plugin-json": "1.0.0",
-    "eslint-plugin-mocha": "4.0.0 - 6.0.0"
+    "eslint": ">=4.0.0 <7.0.0",
+    "eslint-config-airbnb-base": ">=12.0.0 <14.0.0",
+    "eslint-plugin-json": "^1.0.0",
+    "eslint-plugin-mocha": ">=4.0.0 <7.0.0"
   },
   "dependencies": {
     "eslint": "^6.0.0",
