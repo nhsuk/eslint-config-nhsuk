@@ -17,7 +17,7 @@ describe('the ruleset exported from index.js', () => {
     if (errors + warnings > 0) {
       const formatter = cli.getFormatter();
       // eslint-disable-next-line no-console
-      console.log(formatter(report.results));
+      console.error(formatter(report.results));
     }
 
     expect(errors).to.be.equal(0);
