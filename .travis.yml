@@ -2,7 +2,7 @@ language: node_js
 node_js: '10'
 cache: yarn
 
-script: yarn test
+script: yarn test-with-coverage
 
 deploy:
   provider: npm

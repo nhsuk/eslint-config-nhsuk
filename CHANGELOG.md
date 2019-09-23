@@ -1,3 +1,9 @@
+0.21.0 / 2019-09-24
+===================
+- Update npm dependencies
+- Replace [istanbul](https://www.npmjs.com/package/istanbul) with
+  [nyc](https://www.npmjs.com/package/nyc)
+
 0.20.0 / 2019-09-20
 ===================
 - Update npm dependencies

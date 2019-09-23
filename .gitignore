@@ -4,3 +4,8 @@ npm-debug.log.*
 yarn-error.log
 .DS_Store
 *.swp
+
+# Test output
+.nyc_output/
+coverage/
+test-results.xml
