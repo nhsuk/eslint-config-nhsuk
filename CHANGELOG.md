@@ -3,6 +3,7 @@
 - Update npm dependencies
 - Replace [istanbul](https://www.npmjs.com/package/istanbul) with
   [nyc](https://www.npmjs.com/package/nyc)
+- Replace Travis CI with GitHub Actions
 
 0.20.0 / 2019-09-20
 ===================
