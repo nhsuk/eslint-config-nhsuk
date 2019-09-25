@@ -1,7 +1,7 @@
 # NHSUK's ESLint config
 
-[![GitHub Release](https://img.shields.io/github/release/nhsuk/eslint-config-nhsuk.svg)](https://github.com/nhsuk/eslint-config-nhsuk/releases/latest/)
-[![npm version](https://badge.fury.io/js/eslint-config-nhsuk.svg)](https://badge.fury.io/js/eslint-config-nhsuk)
+[![GitHub Release](https://img.shields.io/github/v/release/nhsuk/eslint-config-nhsuk)](https://github.com/nhsuk/eslint-config-nhsuk/releases/latest/)
+[![npm version](https://img.shields.io/npm/v/eslint-config-nhsuk)](https://www.npmjs.com/package/eslint-config-nhsuk)
 [![Greenkeeper badge](https://badges.greenkeeper.io/nhsuk/eslint-config-nhsuk.svg)](https://greenkeeper.io/)
 [![Build Status](https://github.com/nhsuk/eslint-config-nhsuk/workflows/CI/badge.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/nhsuk/eslint-config-nhsuk/badge.svg?targetFile=package.json)](https://snyk.io/test/github/nhsuk/eslint-config-nhsuk?targetFile=package.json)
