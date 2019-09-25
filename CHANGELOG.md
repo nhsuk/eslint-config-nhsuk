@@ -1,4 +1,4 @@
-0.21.0 / 2019-09-24
+0.21.1 / 2019-09-25
 ===================
 - Update npm dependencies
 - Replace [istanbul](https://www.npmjs.com/package/istanbul) with
