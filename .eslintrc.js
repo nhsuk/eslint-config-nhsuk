@@ -44,7 +44,16 @@ module.exports = {
         allowForLoopAfterthoughts: true,
       },
     ],
-    'prefer-destructuring': 'off',
+    'prefer-destructuring': [
+      'error',
+      {
+        array: true,
+        object: true,
+      },
+      {
+        enforceForRenamedProperties: true,
+      },
+    ],
     'sort-keys': [
       'error',
       'asc',
