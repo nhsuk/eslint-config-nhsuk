@@ -1,6 +1,8 @@
-0.22.0 / TBC
+0.22.0 / 2019-10-08
 ===================
 - Disallow empty lines at BOF and EOF
+- Turn `prefer-destructuring` on for both `object` and `array`
+- Update npm dependencies
 
 0.21.2 / 2019-09-25
 ===================
