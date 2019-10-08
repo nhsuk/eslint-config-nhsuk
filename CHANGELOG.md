@@ -1,3 +1,7 @@
+0.22.0 / TBC
+===================
+- Disallow empty lines at BOF and EOF
+
 0.21.2 / 2019-09-25
 ===================
 - Update README badges
