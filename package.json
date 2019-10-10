@@ -6,7 +6,7 @@
   "scripts": {
     "git-hook": "yarn lint && yarn test",
     "lint": "yarn eslint .",
-    "test": "nyc mocha --exit --recursive test",
+    "test": "nyc --nycrc-path .nycrc.json mocha --exit --recursive test",
     "test-watch": "yarn test --reporter min --watch",
     "test-with-coverage": "nyc --reporter=lcov --reporter=cobertura mocha --exit --recursive test --reporter mocha-junit-reporter"
   },

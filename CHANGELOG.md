@@ -1,6 +1,7 @@
 0.23.0 / 2019-10-10
 ===================
 - Do not enforce destructuring option for renamed properties 
+- Fix code coverage check
 
 0.22.0 / 2019-10-08
 ===================
