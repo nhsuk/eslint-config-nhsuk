@@ -1,3 +1,7 @@
+1.0.0 / 2019-10-10
+===================
+- Make release `1.0.0`
+
 0.23.0 / 2019-10-10
 ===================
 - Do not enforce destructuring option for renamed properties 
