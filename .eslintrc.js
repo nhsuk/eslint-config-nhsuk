@@ -51,7 +51,7 @@ module.exports = {
         object: true,
       },
       {
-        enforceForRenamedProperties: true,
+        enforceForRenamedProperties: false,
       },
     ],
     'sort-keys': [

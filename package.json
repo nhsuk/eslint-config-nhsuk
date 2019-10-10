@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-nhsuk",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "description": "ESLint config. Primarily intended for use within NHSUK projects.",
   "main": ".eslintrc.js",
   "scripts": {
     "git-hook": "yarn lint && yarn test",
     "lint": "yarn eslint .",
-    "test": "nyc mocha --exit --recursive test",
+    "test": "nyc --nycrc-path .nycrc.json mocha --exit --recursive test",
     "test-watch": "yarn test --reporter min --watch",
     "test-with-coverage": "nyc --reporter=lcov --reporter=cobertura mocha --exit --recursive test --reporter mocha-junit-reporter"
   },
