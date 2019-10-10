@@ -1,3 +1,7 @@
+0.23.0 / 2019-10-10
+===================
+- Do not enforce destructuring option for renamed properties 
+
 0.22.0 / 2019-10-08
 ===================
 - Disallow empty lines at BOF and EOF
