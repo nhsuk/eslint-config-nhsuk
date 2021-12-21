@@ -29,7 +29,7 @@ jobs:
 
     - name: Publish on tags
       if: success() && startsWith(github.ref, 'refs/tags/')
-      uses: actions/npm@master
+      run: npm install
       with:
         args: publish --access public
       env:
