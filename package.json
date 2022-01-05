@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nhsuk",
-  "version": "1.1.1",
+  "version": "1.0.1@beta.0",
   "description": "ESLint config. Primarily intended for use within NHSUK projects.",
   "main": ".eslintrc.js",
   "scripts": {
