@@ -29,10 +29,12 @@ jobs:
     - name: Upload code coverage
       uses: coverallsapp/github-action@master
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}å
+        github-token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Publish on tags
-      if: success() && startsWith(github.ref, 'refs/tags/')
+    - name: Publish to NPM
+#     if: success() && startsWith(github.ref, 'refs/tags/')
+#     For now, try to publish every time
+      if: success()
       run: npm publish --access public
       env:
         NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
