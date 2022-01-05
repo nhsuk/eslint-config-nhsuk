@@ -34,6 +34,7 @@ jobs:
 
     - name: NPM Who am I?
       run: npm whoami
+      continue-on-error: true
 
     - name: Publish on tags
       if: success() && startsWith(github.ref, 'refs/tags/')
