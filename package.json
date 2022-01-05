@@ -3,6 +3,9 @@
   "version": "1.1.0-beta.0",
   "description": "ESLint config. Primarily intended for use within NHSUK projects.",
   "main": ".eslintrc.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "git-hook": "yarn lint && yarn test",
     "lint": "yarn eslint .",
